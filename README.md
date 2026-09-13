@@ -180,3 +180,22 @@ This repository contains lab-built and sanitized examples only.
 Hostnames, IP addresses, credentials, certificates, serial numbers, and other potentially sensitive information are removed or sanitized.
 
 No employer, customer, or production configuration data is included.
+
+
+### VMware vSphere Lab
+
+The VMware lab consists of multiple ESXi hosts managed through VMware vCenter Server.
+
+![VMware vSphere Lab](screenshots/vsphere.png)
+
+The environment is used to test:
+
+- Multi-host ESXi networking
+- Virtual switching and port groups
+- 802.1Q VLAN trunking
+- VM migration between hosts
+- Linux and Windows virtual machines
+- Virtual network appliances
+- Network connectivity troubleshooting
+
+The lab provides a platform for testing the interaction between physical switching, ESXi virtual networking, and virtual machines.
